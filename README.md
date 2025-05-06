@@ -16,7 +16,7 @@ A Telegram bot to automate creating and posting custom ROM update announcements.
 
 ## Installation
 
-1.  **Clone:** `git clone https://your-repository-url.git && cd postmaker`
+1.  **Clone:** `git clone https://github.com/not-ayan/postmaker && cd postmaker`
 2.  **Install Dependencies:** `pip install telethon Pillow requests`
 3.  **Configure Environment Variables:**
     -   `API_ID`: Your Telegram API ID
@@ -34,6 +34,7 @@ A Telegram bot to automate creating and posting custom ROM update announcements.
     -   `/start`: Initialize bot & set owner if first run.
     -   `/help`: View available commands.
     -   `/new`: Create a new ROM post.
+    -   `/search <term>`: Search for ROMs by device or ROM name.
     -   Owner commands provide administrative functions (see `/help` as owner).
 
 ## Modules
